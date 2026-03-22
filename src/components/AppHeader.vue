@@ -37,7 +37,6 @@ const handleLogout = () => {
         <nav class="hidden md:flex items-center gap-4">
           <RouterLink to="/" :class="navLinkClass('/')">Home</RouterLink>
           <RouterLink to="/countries" :class="navLinkClass('/countries')">Countries</RouterLink>
-          <RouterLink to="/profile" :class="navLinkClass('/profile')">Profile</RouterLink>
         </nav>
       </div>
 

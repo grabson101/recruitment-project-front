@@ -36,13 +36,6 @@ const { isAuthenticated, loginWithRedirect } = useAuth0()
         >
           Login to continue
         </button>
-
-        <RouterLink
-          to="/profile"
-          class="rounded-xl border border-slate-300 px-5 py-3 font-medium text-slate-700 hover:bg-slate-50"
-        >
-          Profile
-        </RouterLink>
       </div>
     </div>
   </section>
